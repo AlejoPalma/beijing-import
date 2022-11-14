@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+#iconodewhatsap {
+    z-index: 999; 
+    cursor: pointer;
+}
+
+#preline {
+    white-space: pre-line;
+}
+
+@media (max-width: 577px) {
+    .imagen_producto {
+        width: 75% !important;
+        height: 235px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    .imagen_producto {
+        width: 100% !important;
+        height: 250px !important;
+    }
+}
